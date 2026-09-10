@@ -69,18 +69,18 @@ function submitForm() {
       <option value="BSCS">BSCS</option>
       <option value="BSIS">BSIS</option>
     </select>
-    
+
   <br><br>
-    <input v-model="yearLevel" type="radio" id="1" value="1st Year" required>
+    <input v-model="yearLevel" type="radio" id="1" value="1st Year" required="">
     <label for="1">1st Year</label>
     <br>
-    <input v-model="yearLevel" type="radio" id="2" value="2nd yaer" required>
+    <input v-model="yearLevel" type="radio" id="2" value="2nd yaer" required="">
     <label for="2">2st Year</label>
     <br>
-    <input v-model="yearLevel" type="radio" id="3" value="3rd Year" required>
+    <input v-model="yearLevel" type="radio" id="3" value="3rd Year" required="">
     <label  for="3">3st Year</label>
     <br>
-    <input v-model="yearLevel" type="radio" id="4" value="4th Year" required>
+    <input v-model="yearLevel" type="radio" id="4" value="4th Year" required="">
     <label  for="4">4st Year</label>
     <br><br>
     <!-- <input
